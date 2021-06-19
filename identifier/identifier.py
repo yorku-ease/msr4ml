@@ -4,6 +4,7 @@ from astroid import parse, Const
 from astroid.exceptions import InferenceError
 from astroid import MANAGER, nodes, inference_tip
 import os
+from . import utils
 
 
 def _looks_like_infer_join(node, node_name="join"):
@@ -100,9 +101,49 @@ def get_args(node, index=0):
         })
     return args, index + 1
 
+def get_links(args = []):
+    links = []
+    io_functions = utils.get_io_funcs()
 
-def identify(ast_node):
-    for node in get_open_node(ast_node, ["opening", "open"]):
+    for arg in args:
+        io_method = arg["name"]
+        print(io_method)
+        print(io_functions[io_method])
+        default_type = io_functions[io_method].split(":")[0]
+        fparam_position = int(io_functions[io_method].split(":")[1])
+        mparam_position = int(io_functions[io_method].split(":")[2])
+        artefact_location = None
+        artefact_type = None
+
+        if len(arg["args"]) >= fparam_position:
+            artefact_location = arg["args"][fparam_position-1]["value"]
+        
+        if default_type is not None:
+            if "r" in default_type:
+                artefact_type = "input"
+            else:
+                artefact_type = "output"
+        elif len(arg["args"]) >= mparam_position:
+            type = arg["args"][mparam_position-1]
+            if "r" in type:
+                artefact_type = "input"
+            else:
+                artefact_type = "output"
+
+        link = {
+            "io_method": io_method,
+            "lineno": arg["lineno"],
+            "artefact_location": artefact_location,
+            "artefact_type": artefact_type,
+        }
+        
+        links.append(link)
+    return links
+
+
+def get_arguments(ast_node):
+    args = []
+    for node in get_open_node(ast_node, utils.get_io_funcs().keys()):
         # print(node)
         d = {'name': node.func.name if hasattr(node.func, "name") else node.func.attrname, 'lineno': node.lineno,
             'args': []}
@@ -111,7 +152,13 @@ def identify(ast_node):
             d['args'], last = get_args(node)
         if node.keywords is not None:
             d['args'] += get_keywords(node, last)
-        print(json.dumps(d, indent=4))
+        #print(json.dumps(d, indent=4))
+        args.append(d)
+    return args
+
+def identify(ast_node):
+    print(json.dumps(get_links(get_arguments(ast_node)), indent=4))
+
 
 def main():
     pass
