@@ -107,8 +107,6 @@ def get_links(args = []):
 
     for arg in args:
         io_method = arg["name"]
-        print(io_method)
-        print(io_functions[io_method])
         default_type = io_functions[io_method].split(":")[0]
         fparam_position = int(io_functions[io_method].split(":")[1])
         mparam_position = int(io_functions[io_method].split(":")[2])
@@ -135,6 +133,7 @@ def get_links(args = []):
             "lineno": arg["lineno"],
             "artefact_location": artefact_location,
             "artefact_type": artefact_type,
+            "weight": 1
         }
         
         links.append(link)
@@ -156,11 +155,40 @@ def get_arguments(ast_node):
         args.append(d)
     return args
 
-def identify(ast_node):
-    print(json.dumps(get_links(get_arguments(ast_node)), indent=4))
+def identify(name, project, codes):
+    res = {}
+    result_dir = os.path.join(project, "msr4ml")
+    result_file = os.path.join(result_dir, "identifier_results.json")
+    #Create msr4ml dir in target project's path if not exists
+    if not os.path.exists(result_dir):
+        os.mkdir(result_dir)
+    
+    #Create identifier result json file in target project's path if not exists
+    if not os.path.isfile(result_file):
+        with open(result_file, 'w') as f:
+            f.write('{"default": "Temporary"}')
+    
+    #Load existing identified artefacts
+    with open(result_file, "r") as f:
+        res = json.load(f)
+        if "default" in res.keys():
+            del res["default"]
+    
+    #Identify artefact for each file in the project
+    for fname, ast_node in codes.items():
+        links = get_links(get_arguments(ast_node))
+        if links:
+            res[fname] = links
+
+    # save to result file
+    with open(result_file, 'w') as f:
+            json.dump(res, f, indent=4, sort_keys=False)
+
+    print("Finished identification.", f'results saved in {result_file}')
+    
 
 
-def main():
+def main(project, ast_node):
     pass
 
 if __name__ == "__main__":

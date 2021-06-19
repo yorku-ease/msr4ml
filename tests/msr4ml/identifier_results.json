@@ -1,0 +1,18 @@
+{
+    "tests/test_file1.py": [
+        {
+            "io_method": "open",
+            "lineno": 7,
+            "artefact_location": "root/hello.pnghiman",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "save_model",
+            "lineno": 8,
+            "artefact_location": "root/hello.pnghiman/dir2/hello.jo",
+            "artefact_type": "output",
+            "weight": 1
+        }
+    ]
+}

@@ -4,7 +4,7 @@ import os
 import json
 
 
-def get_io_funcs(io_func_file_name="./config/io_functions.json"):
+def get_io_funcs(io_func_file_name=os.path.join(os.path.dirname(__file__), "config/io_functions.json")):
     io_funcs = {}
     libs = []
     functions = {}
@@ -20,8 +20,6 @@ def get_io_funcs(io_func_file_name="./config/io_functions.json"):
                 if mparam_position is None:
                     mparam_position = 1000 #Give huge value in case there is no value to fix index out of range error during spliting
                 functions[v1_key] = f"{v1_value['set_mode_from_name']}:{v1_value['fparam_position']}:{mparam_position}"
-                if v1_key == "load":
-                    print(functions[v1_key])
             else:
                 functions[v1_key] = f"{v1_value['set_mode_from_name']}:{v1_value['fparam_position']}:{mparam_position}" if v1_value['set_mode_from_name'] else functions[v1_key]
     return functions
