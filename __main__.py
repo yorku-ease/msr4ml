@@ -5,19 +5,6 @@ from parser import parser
 import astroid
 from identifier import identifier
 
-# TODO: For test, delete later
-source = '''
-import os
-from test import Test
-f = "hello.png"+"himan"
-t = Test(filename="testingoh")
-c = os.path.join("root", f)
-d = os.path.join(c, "dir2")
-open(c, gigi="hi", mode="testing")
-t.save_model(model, os.path.join(d, "hello.jo"), oro="r")
-'''
-module = astroid.parse(source)
-
 
 def get_python_files(project):
     py_files = []
@@ -30,8 +17,8 @@ def get_python_files(project):
 def call_parser(py_file):
     return parser.to_ast(py_file)
 
-def call_identifier(node):
-    identifier.identify(node)
+def call_identifier(name, project, codes):
+    identifier.identify(name, project, codes)
 
 def get_args():
     parser = argparse.ArgumentParser(description="Retrieve which code imports which file in the project")
@@ -59,8 +46,18 @@ def main():
     assert args.project is not None, "The path of the ML project must be specified"
     args.name = args.name if args.name is not None else args.project.split('/')[-1]
 
+    filenames = []
+    codes = {}
+    for root, dirs, files in os.walk(args.project):
+        for file in files:
+            if file.endswith(".py"):
+                filenames.append(os.path.join(root, file))
+    for file in filenames:
+        with open(file) as f:
+            codes[file] = astroid.parse(f.read())
+
     print(args.name, args.project)
-    call_identifier(module)
+    call_identifier(args.name, os.path.abspath(args.project), codes)
 
 
 
