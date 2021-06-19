@@ -155,7 +155,7 @@ def get_arguments(ast_node):
         args.append(d)
     return args
 
-def identify(name, project, codes):
+def identify(name, project, codes, check_all=True):
     res = {}
     result_dir = os.path.join(project, "msr4ml")
     result_file = os.path.join(result_dir, "identifier_results.json")
@@ -173,6 +173,8 @@ def identify(name, project, codes):
         res = json.load(f)
         if "default" in res.keys():
             del res["default"]
+        if check_all:
+            res = {}
     
     #Identify artefact for each file in the project
     for fname, ast_node in codes.items():
@@ -183,8 +185,12 @@ def identify(name, project, codes):
     # save to result file
     with open(result_file, 'w') as f:
             json.dump(res, f, indent=4, sort_keys=False)
-
-    print("Finished identification.", f'results saved in {result_file}')
+    if res:
+        print("Finished identification.", f'results saved in {result_file}')
+        return result_file
+    else:
+        print("No artefact found, aborting...")
+        return False
     
 
 

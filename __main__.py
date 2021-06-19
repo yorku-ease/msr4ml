@@ -1,6 +1,7 @@
 import argparse
 import os
 from parser import parser
+from pathlib import PurePath
 
 import astroid
 from identifier import identifier
@@ -44,7 +45,7 @@ def get_args():
 def main():
     args = get_args().parse_args()
     assert args.project is not None, "The path of the ML project must be specified"
-    args.name = args.name if args.name is not None else args.project.split('/')[-1]
+    name = args.name if args.name != '' else os.path.basename(os.path.normpath(args.project))
 
     filenames = []
     codes = {}
@@ -55,9 +56,8 @@ def main():
     for file in filenames:
         with open(file) as f:
             codes[file] = astroid.parse(f.read())
-
-    print(args.name, args.project)
-    call_identifier(args.name, os.path.abspath(args.project), codes)
+            
+    call_identifier(name, os.path.abspath(args.project), codes)
 
 
 
