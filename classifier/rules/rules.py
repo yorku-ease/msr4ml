@@ -17,15 +17,15 @@ class Artefact(object):
     def set_categories(self):
         self.categories = get_by_name(self.name)
         ext_cat = get_by_extension(self.name)
-        for cat, prio in ext_cat.items():
-            if cat in self.categories.keys():
-                if prio > self.categories[cat]:
-                    self.categories[cat] = prio
-            else:
-                self.categories[cat] = prio
+        for cat in ["data", "model", "conf"]:
+            if (cat in ext_cat.keys()) and (cat in self.categories.keys()):
+                self.categories[cat] = max(self.categories[cat], ext_cat[cat])
+            elif cat in ext_cat.keys():
+                self.categories[cat] = ext_cat[cat]
 
         # Set the highest priority as categorie
-        self.categorie = max(self.categories, key=self.categories.get)
+        if self.categories:
+            self.categorie = max(self.categories, key=self.categories.get)
 
 def get_by_name(name, cat=["data", "model", "conf"]):
     categories = {}

@@ -14,20 +14,14 @@ def classify(identifier_result_file):
         for artefact in artefacts:
             a = Artefact(artefact)
             a.set_categories()
-            categorie = None
-            priority = 0
-            for cat, prio in a.categories.items():
-                if prio > priority:
-                    categorie = cat
-            a.categorie = categorie
             artefact["possible_categories"] = a.categories
             artefact["categorie"] = a.categorie
 
-        # save to result file
-        with open(result_file, 'w') as f:
-                json.dump(links, f, indent=4, sort_keys=False)
-        print("Finished classification.", f'results saved in {result_file}')
-        return result_file
+    # save to result file
+    with open(result_file, 'w') as f:
+            json.dump(links, f, indent=4, sort_keys=False)
+    print("Finished classification.", f'results saved in {result_file}')
+    return result_file
 
 
 def main(links):
