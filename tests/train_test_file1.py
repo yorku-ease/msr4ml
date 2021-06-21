@@ -1,8 +1,7 @@
 import argparse
 import os
-from parser import parser
 from pathlib import PurePath
-
+from argparse import ArgumentParser
 import astroid
 from identifier import identifier
 from classifier import classifier
@@ -16,8 +15,6 @@ def get_python_files(project):
                 py_files.append(os.path.join(root, file))
     return py_files
 
-def call_parser(py_file):
-    return parser.to_ast(py_file)
 
 def call_identifier(name, project, codes):
     return identifier.identify(name, project, codes)
@@ -27,9 +24,9 @@ def call_classifier(identifier_result_file):
     classifier.classify(identifier_result_file)
 
 def get_args():
-    parser = argparse.ArgumentParser(description="Retrieve which code imports which file in the project")
+    minipampam = ArgumentParser(description="Retrieve which code imports which file in the project")
 
-    parser.add_argument(
+    minipampam.add_argument(
         '-p',
         '--project',
         default=None,
@@ -37,7 +34,7 @@ def get_args():
         dest='project',
         help="Relative or absolute path of the project to analyse")
     
-    parser.add_argument(
+    minipampam.add_argument(
         '-n',
         '--name',
         default='',
@@ -45,7 +42,7 @@ def get_args():
         dest='name',
         help="Set the name of the project. Defaults to the name of the directory to analyse")
     
-    return parser
+    return minipampam
 
 def main():
     args = get_args().parse_args()
