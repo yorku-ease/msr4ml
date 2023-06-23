@@ -6,3 +6,6 @@
 venv
 *pycache*
 *.pyc
+
+# test folder
+repos
