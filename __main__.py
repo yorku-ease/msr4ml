@@ -59,7 +59,7 @@ def main():
             if file.endswith(".py"):
                 filenames.append(os.path.join(root, file))
     for file in filenames:
-        with open(file) as f:
+        with open(file, encoding="utf8") as f:
             codes[file] = astroid.parse(f.read())
 
     print("+++ Starting identification...")
