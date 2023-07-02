@@ -1,0 +1,1743 @@
+{
+    ".\\repos\\LAVIS-main\\setup.py": [
+        {
+            "io_method": "open",
+            "lineno": 17,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 26,
+            "artefact_location": "README.md",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\app\\calculate_coco_features.py": [
+        {
+            "io_method": "open",
+            "lineno": 26,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 32,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "save",
+            "lineno": 87,
+            "artefact_location": "path2feat_coco_train2014.pth",
+            "artefact_type": "output",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\app\\caption.py": [
+        {
+            "io_method": "open",
+            "lineno": 36,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\app\\classification.py": [
+        {
+            "io_method": "open",
+            "lineno": 26,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 40,
+            "artefact_location": "blip_feature_extractor",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 44,
+            "artefact_location": "albef_feature_extractor",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 48,
+            "artefact_location": "clip_feature_extractor",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 52,
+            "artefact_location": "clip_feature_extractor",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 56,
+            "artefact_location": "clip_feature_extractor",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 81,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\app\\image_text_match.py": [
+        {
+            "io_method": "open",
+            "lineno": 46,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\app\\multimodal_search.py": [
+        {
+            "io_method": "load",
+            "lineno": 45,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(dirname, filename)",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 64,
+            "artefact_location": "blip_feature_extractor",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\app\\text_localization.py": [
+        {
+            "io_method": "open",
+            "lineno": 50,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\app\\utils.py": [
+        {
+            "io_method": "open",
+            "lineno": 26,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 40,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 78,
+            "artefact_location": "blip_image_text_matching",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\app\\vqa.py": [
+        {
+            "io_method": "open",
+            "lineno": 31,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\app\\__init__.py": [
+        {
+            "io_method": "open",
+            "lineno": 20,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\__init__.py": [
+        {
+            "io_method": "load",
+            "lineno": 22,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(root_dir, 'configs/default.yaml')",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\common\\config.py": [
+        {
+            "io_method": "load",
+            "lineno": 27,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 77,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 108,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\common\\utils.py": [
+        {
+            "io_method": "open",
+            "lineno": 55,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 56,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 130,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(output_path, output_file_name)",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 155,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 287,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "dump",
+            "lineno": 288,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "output",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 290,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "save",
+            "lineno": 291,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "output",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 294,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 298,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 302,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "dump",
+            "lineno": 303,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "output",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 327,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 330,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 331,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 335,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 336,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 346,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 355,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 356,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 358,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 359,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 361,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 362,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 364,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 365,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 367,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "read_csv",
+            "lineno": 368,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\common\\vqa_tools\\vqa.py": [
+        {
+            "io_method": "load",
+            "lineno": 47,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 47,
+            "artefact_location": null,
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 48,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 48,
+            "artefact_location": null,
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 180,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 180,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 189,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 189,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\data_utils.py": [
+        {
+            "io_method": "open",
+            "lineno": 207,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 243,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 243,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "save",
+            "lineno": 284,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\builders\\base_dataset_builder.py": [
+        {
+            "io_method": "load",
+            "lineno": 231,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\aok_vqa_datasets.py": [
+        {
+            "io_method": "open",
+            "lineno": 42,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.41 at 0x1652bede3d0>,\n     args=[ <Attribute.vis_root l.41 at 0x1652bede510>,\n       <Subscript l.41 at 0x1652bede590>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 76,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 76,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 80,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 80,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 130,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(self.vis_root, ann['image'])",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\base_dataset.py": [
+        {
+            "io_method": "load",
+            "lineno": 27,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 27,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\caption_datasets.py": [
+        {
+            "io_method": "open",
+            "lineno": 50,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.49 at 0x1652bf36390>,\n     args=[ <Attribute.vis_root l.49 at 0x1652bf364d0>,\n       <Subscript l.49 at 0x1652bf36550>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 76,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.75 at 0x1652bf40990>,\n     args=[ <Attribute.vis_root l.75 at 0x1652bf40ad0>,\n       <Subscript l.75 at 0x1652bf40b50>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\coco_caption_datasets.py": [
+        {
+            "io_method": "open",
+            "lineno": 34,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.33 at 0x1652bf49b50>,\n     args=[ <Attribute.vis_root l.33 at 0x1652bf49c90>,\n       <Subscript l.33 at 0x1652bf49d10>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 60,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.59 at 0x1652bf4c510>,\n     args=[ <Attribute.vis_root l.59 at 0x1652bf4c650>,\n       <Subscript l.59 at 0x1652bf4c6d0>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\coco_vqa_datasets.py": [
+        {
+            "io_method": "open",
+            "lineno": 41,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.40 at 0x1652bf66050>,\n     args=[ <Attribute.vis_root l.40 at 0x1652bf66190>,\n       <Subscript l.40 at 0x1652bf66210>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 73,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 73,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 77,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 77,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 97,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(self.vis_root, ann['image'])",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\dialogue_datasets.py": [
+        {
+            "io_method": "load",
+            "lineno": 43,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 43,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 76,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(self.vis_root, ann['image'])",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 100,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 100,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 133,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(self.vis_root, ann['image'])",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\gqa_datasets.py": [
+        {
+            "io_method": "open",
+            "lineno": 41,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.40 at 0x1652bfb45d0>,\n     args=[ <Attribute.vis_root l.40 at 0x1652bfb4710>,\n       <Subscript l.40 at 0x1652bfb4790>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 66,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 66,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 71,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 71,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 84,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(self.vis_root, ann['image'])",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\imagefolder_dataset.py": [
+        {
+            "io_method": "open",
+            "lineno": 39,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.38 at 0x1652bfbd910>,\n     args=[ <Attribute.vis_root l.38 at 0x1652bfbdb50>,\n       <Name.img_fn l.38 at 0x1652bfbdbd0>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\image_text_pair_datasets.py": [
+        {
+            "io_method": "open",
+            "lineno": 42,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.41 at 0x1652bfd0390>,\n     args=[ <Attribute.vis_root l.41 at 0x1652bfd04d0>,\n       <Subscript l.41 at 0x1652bfd0550>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\nlvr_datasets.py": [
+        {
+            "io_method": "open",
+            "lineno": 69,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.68 at 0x1652bff0e90>,\n     args=[ <Attribute.vis_root l.68 at 0x1652bff0fd0>,\n       <Subscript l.68 at 0x1652bff1050>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 73,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.72 at 0x1652bff1890>,\n     args=[ <Attribute.vis_root l.72 at 0x1652bff1a10>,\n       <Subscript l.72 at 0x1652bff1a90>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\retrieval_datasets.py": [
+        {
+            "io_method": "open",
+            "lineno": 50,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.49 at 0x1652c00a3d0>,\n     args=[ <Attribute.vis_root l.49 at 0x1652c00a510>,\n       <Subscript l.49 at 0x1652c00a590>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 91,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.90 at 0x1652c01a610>,\n     args=[ <Attribute.vis_root l.90 at 0x1652c01a6d0>,\n       <Subscript l.90 at 0x1652c01a750>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\snli_ve_datasets.py": [
+        {
+            "io_method": "open",
+            "lineno": 45,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.44 at 0x1652bffd8d0>,\n     args=[ <Attribute.vis_root l.44 at 0x1652bffdb10>,\n       <BinOp l.44 at 0x1652bffdb50>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\vg_vqa_datasets.py": [
+        {
+            "io_method": "open",
+            "lineno": 23,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.22 at 0x1652c039090>,\n     args=[ <Attribute.vis_root l.22 at 0x1652c0391d0>,\n       <Subscript l.22 at 0x1652c039250>],\n     keywords=[])",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\datasets\\video_vqa_datasets.py": [
+        {
+            "io_method": "load",
+            "lineno": 34,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 34,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\download_scripts\\download_coco.py": [
+        {
+            "io_method": "load",
+            "lineno": 37,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\download_scripts\\download_didemo.py": [
+        {
+            "io_method": "load",
+            "lineno": 50,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\download_scripts\\download_flickr.py": [
+        {
+            "io_method": "load",
+            "lineno": 51,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\download_scripts\\download_gqa.py": [
+        {
+            "io_method": "load",
+            "lineno": 32,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\download_scripts\\download_msrvtt.py": [
+        {
+            "io_method": "load",
+            "lineno": 77,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\download_scripts\\download_msvd.py": [
+        {
+            "io_method": "load",
+            "lineno": 47,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\download_scripts\\download_nocaps.py": [
+        {
+            "io_method": "open",
+            "lineno": 48,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 83,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 103,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 103,
+            "artefact_location": "tmp/nocaps_val_ann.json",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 104,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 104,
+            "artefact_location": "tmp/nocaps_tst_ann.json",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\download_scripts\\download_sbu.py": [
+        {
+            "io_method": "open",
+            "lineno": 37,
+            "artefact_location": "Error::Instance::Instance of _io.BytesIO",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "save",
+            "lineno": 50,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 57,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\download_scripts\\download_vg.py": [
+        {
+            "io_method": "load",
+            "lineno": 35,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\download_scripts\\DownloadConceptualCaptions\\download_data_cc12m.py": [
+        {
+            "io_method": "open",
+            "lineno": 42,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 125,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "save",
+            "lineno": 161,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1
+        },
+        {
+            "io_method": "read_csv",
+            "lineno": 176,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 186,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 198,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "to_csv",
+            "lineno": 225,
+            "artefact_location": "downloaded_cc12m_report.tsv.gz",
+            "artefact_type": "output",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\datasets\\download_scripts\\DownloadConceptualCaptions\\download_data_cc3m.py": [
+        {
+            "io_method": "open",
+            "lineno": 42,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 125,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "save",
+            "lineno": 161,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1
+        },
+        {
+            "io_method": "read_csv",
+            "lineno": 176,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 186,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 198,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "to_csv",
+            "lineno": 222,
+            "artefact_location": "downloaded_cc3m_report.tsv.gz",
+            "artefact_type": "output",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\base_model.py": [
+        {
+            "io_method": "load",
+            "lineno": 40,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 42,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 69,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\clip_vit.py": [
+        {
+            "io_method": "load",
+            "lineno": 246,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\eva_vit.py": [
+        {
+            "io_method": "load",
+            "lineno": 433,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\vit.py": [
+        {
+            "io_method": "load",
+            "lineno": 305,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\__init__.py": [
+        {
+            "io_method": "load",
+            "lineno": 206,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\albef_models\\albef_vqa.py": [
+        {
+            "io_method": "load",
+            "lineno": 386,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 388,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\albef_models\\__init__.py": [
+        {
+            "io_method": "load",
+            "lineno": 35,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 37,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\alpro_models\\__init__.py": [
+        {
+            "io_method": "load",
+            "lineno": 29,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 31,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\blip2_models\\blip2.py": [
+        {
+            "io_method": "load",
+            "lineno": 90,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 92,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 174,
+            "artefact_location": "en_core_web_sm",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\blip2_models\\blip2_opt.py": [
+        {
+            "io_method": "load",
+            "lineno": 378,
+            "artefact_location": "en_core_web_sm",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\blip2_models\\blip2_t5.py": [
+        {
+            "io_method": "load",
+            "lineno": 336,
+            "artefact_location": "en_core_web_sm",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\blip2_models\\blip2_t5_instruct.py": [
+        {
+            "io_method": "load",
+            "lineno": 720,
+            "artefact_location": "en_core_web_sm",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\blip2_models\\blip2_vicuna_instruct.py": [
+        {
+            "io_method": "load",
+            "lineno": 672,
+            "artefact_location": "en_core_web_sm",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\blip_models\\blip.py": [
+        {
+            "io_method": "load",
+            "lineno": 39,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 41,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\blip_models\\blip_nlvr.py": [
+        {
+            "io_method": "load",
+            "lineno": 161,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 163,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\clip_models\\model.py": [
+        {
+            "io_method": "open",
+            "lineno": 706,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 909,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 910,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 924,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 1082,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 1091,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\clip_models\\pretrained.py": [
+        {
+            "io_method": "open",
+            "lineno": 147,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(root, filename)",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 158,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(root, filename)",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 175,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(root, filename)",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\clip_models\\tokenizer.py": [
+        {
+            "io_method": "open",
+            "lineno": 86,
+            "artefact_location": "Error: 'InferenceError' object has no attribute '_infer_name'",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\img2prompt_models\\img2prompt_vqa.py": [
+        {
+            "io_method": "load",
+            "lineno": 66,
+            "artefact_location": "en_core_web_sm",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 576,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\models\\timesformer\\helpers.py": [
+        {
+            "io_method": "load",
+            "lineno": 26,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\processors\\gpt_processors.py": [
+        {
+            "io_method": "load",
+            "lineno": 142,
+            "artefact_location": "Error: 'InferenceError' object has no attribute 'infer'",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 146,
+            "artefact_location": "Error: 'InferenceError' object has no attribute 'infer'",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\runners\\runner_base.py": [
+        {
+            "io_method": "save",
+            "lineno": 591,
+            "artefact_location": "Error: Replacement index 0 out of range for positional args tuple",
+            "artefact_type": "output",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 600,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(self.output_dir, 'checkpoint_best.pth')",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 621,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 623,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 641,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(self.output_dir, 'log.txt')",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 648,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(self.output_dir, 'log.txt')",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\runners\\runner_iter.py": [
+        {
+            "io_method": "save",
+            "lineno": 169,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.164 at 0x1652edf56d0>,\n     args=[ <Attribute.output_dir l.165 at 0x1652edf5810>,\n       <Call l.166 at 0x1652edf5890>],\n     keywords=[])",
+            "artefact_type": "output",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 179,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 181,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\tasks\\base_task.py": [
+        {
+            "io_method": "dump",
+            "lineno": 258,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "output",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 258,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(result_dir, '%s_rank%d.json' % (filename, get_rank()))",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 272,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 272,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(result_dir, '%s_rank%d.json' % (filename, rank))",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "dump",
+            "lineno": 284,
+            "artefact_location": "Error::List::List.list(ctx=<Context.Load: 1>,\n          elts=[])",
+            "artefact_type": "output",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 284,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(result_dir, '%s.json' % filename)",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\tasks\\captioning.py": [
+        {
+            "io_method": "open",
+            "lineno": 92,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(registry.get_path('output_dir'), 'evaluate.txt')",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\tasks\\dialogue.py": [
+        {
+            "io_method": "open",
+            "lineno": 76,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(registry.get_path('output_dir'), 'evaluate.txt')",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\tasks\\multimodal_classification.py": [
+        {
+            "io_method": "load",
+            "lineno": 67,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 67,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 77,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(registry.get_path('output_dir'), 'evaluate.txt')",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\tasks\\retrieval.py": [
+        {
+            "io_method": "open",
+            "lineno": 103,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(registry.get_path('output_dir'), 'evaluate.txt')",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\tasks\\vqa.py": [
+        {
+            "io_method": "open",
+            "lineno": 162,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(registry.get_path('output_dir'), 'evaluate.txt')",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 199,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 199,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 223,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(registry.get_path('output_dir'), 'evaluate.txt')",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 266,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 266,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 286,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(registry.get_path('output_dir'), 'evaluate.txt')",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 311,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "dump",
+            "lineno": 312,
+            "artefact_location": "Error::Dict::Dict.dict(items=[])",
+            "artefact_type": "output",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\lavis\\tasks\\vqa_reading_comprehension.py": [
+        {
+            "io_method": "save",
+            "lineno": 125,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(result_dir, '%s_rank%d.pth' % (filename, get_rank()))",
+            "artefact_type": "output",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 136,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(result_dir, '%s_rank%d.pth' % (filename, rank))",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "save",
+            "lineno": 150,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(result_dir, '%s.pth' % filename)",
+            "artefact_type": "output",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 198,
+            "artefact_location": "Error: StopIteration raised without any error information.",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 198,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 222,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(registry.get_path('output_dir'), 'evaluate.txt')",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 245,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "dump",
+            "lineno": 246,
+            "artefact_location": "Error::List::List.list(ctx=<Context.Load: 1>,\n          elts=[])",
+            "artefact_type": "output",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\projects\\img2llm-vqa\\img2llm_vqa.py": [
+        {
+            "io_method": "open",
+            "lineno": 46,
+            "artefact_location": "./demo.png",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 161,
+            "artefact_location": "facebook/opt-6.7b",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\tests\\models\\test_albef.py": [
+        {
+            "io_method": "open",
+            "lineno": 21,
+            "artefact_location": "docs/_static/merlion.png",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 46,
+            "artefact_location": "albef_vqa",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 82,
+            "artefact_location": "albef_retrieval",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 123,
+            "artefact_location": "albef_pretrain",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\tests\\models\\test_blip.py": [
+        {
+            "io_method": "open",
+            "lineno": 21,
+            "artefact_location": "docs/_static/merlion.png",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 139,
+            "artefact_location": "blip_retrieval",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load_model",
+            "lineno": 180,
+            "artefact_location": "blip_pretrain",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 217,
+            "artefact_location": "docs/_static/merlion.png",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "open",
+            "lineno": 284,
+            "artefact_location": "docs/_static/merlion.png",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\tests\\models\\test_blip2.py": [
+        {
+            "io_method": "open",
+            "lineno": 21,
+            "artefact_location": "docs/_static/merlion.png",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    ".\\repos\\LAVIS-main\\tests\\models\\test_pnp_vqa.py": [
+        {
+            "io_method": "open",
+            "lineno": 21,
+            "artefact_location": "docs/_static/merlion.png",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ]
+}
