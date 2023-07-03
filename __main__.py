@@ -49,9 +49,10 @@ def get_args():
 
 def main():
     args = get_args().parse_args()
+    args.project = 'repos/guidance-main'
     assert args.project is not None, "The path of the ML project must be specified"
     name = args.name if args.name != '' else os.path.basename(os.path.normpath(args.project))
-
+    
     filenames = []
     codes = {}
     for root, _, files in os.walk(args.project):

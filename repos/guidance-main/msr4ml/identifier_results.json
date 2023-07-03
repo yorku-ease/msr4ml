@@ -1,14 +1,14 @@
 {
-    "./repos/guidance-main\\setup.py": [
+    "repos/guidance-main\\setup.py": [
         {
             "io_method": "open",
             "lineno": 9,
-            "artefact_location": "Error::Call::Call(func=<Attribute.join l.9 at 0x1b40e8e7010>,\n     args=[<Name.here l.9 at 0x1b40e923e10>, <Starred l.9 at 0x1b40e923e50>],\n     keywords=[])",
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.9 at 0x248b1693910>,\n     args=[<Name.here l.9 at 0x248b16c87d0>, <Starred l.9 at 0x248b16c8810>],\n     keywords=[])",
             "artefact_type": "input",
             "weight": 1
         }
     ],
-    "./repos/guidance-main\\guidance\\_program.py": [
+    "repos/guidance-main\\guidance\\_program.py": [
         {
             "io_method": "open",
             "lineno": 26,
@@ -17,7 +17,7 @@
             "weight": 1
         }
     ],
-    "./repos/guidance-main\\guidance\\_utils.py": [
+    "repos/guidance-main\\guidance\\_utils.py": [
         {
             "io_method": "open",
             "lineno": 16,
@@ -33,7 +33,7 @@
             "weight": 1
         }
     ],
-    "./repos/guidance-main\\guidance\\__init__.py": [
+    "repos/guidance-main\\guidance\\__init__.py": [
         {
             "io_method": "open",
             "lineno": 34,
@@ -42,7 +42,7 @@
             "weight": 1
         }
     ],
-    "./repos/guidance-main\\guidance\\llms\\_azure_openai.py": [
+    "repos/guidance-main\\guidance\\llms\\_azure_openai.py": [
         {
             "io_method": "open",
             "lineno": 37,
@@ -58,7 +58,7 @@
             "weight": 1
         }
     ],
-    "./repos/guidance-main\\guidance\\llms\\_openai.py": [
+    "repos/guidance-main\\guidance\\llms\\_openai.py": [
         {
             "io_method": "open",
             "lineno": 79,
@@ -81,7 +81,7 @@
             "weight": 1
         }
     ],
-    "./repos/guidance-main\\guidance\\llms\\_transformers.py": [
+    "repos/guidance-main\\guidance\\llms\\_transformers.py": [
         {
             "io_method": "open",
             "lineno": 26,
