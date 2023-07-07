@@ -44,3 +44,4 @@ jobs:
     - name: Test app with pytest
       run: |
         pytest
+        python ./msr4ml-tests/msr4ml_test.py
