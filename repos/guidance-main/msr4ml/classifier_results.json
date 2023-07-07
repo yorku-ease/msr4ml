@@ -3,7 +3,7 @@
         {
             "io_method": "open",
             "lineno": 9,
-            "artefact_location": "Error::Call::Call(func=<Attribute.join l.9 at 0x248b1693910>,\n     args=[<Name.here l.9 at 0x248b16c87d0>, <Starred l.9 at 0x248b16c8810>],\n     keywords=[])",
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.9 at 0x2b2f0a82450>,\n     args=[<Name.here l.9 at 0x2b2f0ac3890>, <Starred l.9 at 0x2b2f0ac38d0>],\n     keywords=[])",
             "artefact_type": "input",
             "weight": 1,
             "possible_categories": {},

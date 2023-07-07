@@ -35,7 +35,7 @@ def get_args():
         default=None,
         type=str,
         dest='project',
-        help="Relative or absolute path of the project to analyse")
+        help="Relative or absolute path of the project to analyse") 
     
     parser.add_argument(
         '-n',
@@ -43,25 +43,27 @@ def get_args():
         default='',
         type=str,
         dest='name',
-        help="Set the name of the project. Defaults to the name of the directory to analyse")
+        help="Set the name of the project. Defaults to the name of the directory to analyse") 
     
     return parser
 
 def main():
     args = get_args().parse_args()
-    args.project = 'repos/guidance-main'
+    args.project = 'repos/Hello'
     assert args.project is not None, "The path of the ML project must be specified"
     name = args.name if args.name != '' else os.path.basename(os.path.normpath(args.project))
     
     filenames = []
     codes = {}
-    for root, _, files in os.walk(args.project):
-        for file in files:
-            if file.endswith(".py"):
-                filenames.append(os.path.join(root, file))
+    filenames = get_python_files(args.project)
+    # for root, _, files in os.walk(args.project):
+    #     for file in files:
+    #         if file.endswith(".py"):
+    #             filenames.append(os.path.join(root, file))
     for file in filenames:
         with open(file, encoding="utf8") as f:
             codes[file] = astroid.parse(f.read())
+            #codes[file] = call_parser(f.read()) 
 
     print("+++ Starting identification...")
     identifier_result_file = call_identifier(name, os.path.abspath(args.project), codes)
