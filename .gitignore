@@ -8,7 +8,6 @@ venv
 *.pyc
 
 # repos
-repos
 
 # vscode
 .vscode

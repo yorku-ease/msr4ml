@@ -1,0 +1,821 @@
+{
+    "repos/flash-attention-main\\setup.py": [
+        {
+            "io_method": "open",
+            "lineno": 17,
+            "artefact_location": "README.md",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "open",
+            "lineno": 191,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/flash-attention-main\\benchmarks\\benchmark_causal.py": [
+        {
+            "io_method": "open",
+            "lineno": 228,
+            "artefact_location": "flash2_attn_time_h100.plk",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "dump",
+            "lineno": 229,
+            "artefact_location": "Error::Tuple::Tuple.tuple(ctx=<Context.Load: 1>,\n            elts=[ <Name.time_f l.229 at 0x13dd21c7510>,\n              <Name.time_b l.229 at 0x13dd21c75d0>])",
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/flash-attention-main\\flash_attn\\flash_attn_triton.py": [
+        {
+            "io_method": "load",
+            "lineno": 116,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 118,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 121,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 123,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 132,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 134,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 137,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 140,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 153,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 155,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 159,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 161,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 182,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 187,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 189,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 192,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 195,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 209,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 249,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 251,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 333,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 334,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 336,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 337,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 340,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 341,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 343,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 345,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 355,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 358,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 360,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 373,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 375,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 379,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 381,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 390,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 401,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 404,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 430,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 441,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 446,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 452,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/flash-attention-main\\flash_attn\\flash_attn_triton_og.py": [
+        {
+            "io_method": "load",
+            "lineno": 51,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 56,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 77,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 80,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 110,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 111,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 112,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 166,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 167,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 172,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 177,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 180,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 183,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 191,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/flash-attention-main\\flash_attn\\models\\llama.py": [
+        {
+            "io_method": "open",
+            "lineno": 82,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 83,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 93,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/flash-attention-main\\flash_attn\\ops\\triton\\linear.py": [
+        {
+            "io_method": "load",
+            "lineno": 158,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 159,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 161,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 162,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 176,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 387,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 388,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 390,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 391,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 400,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/flash-attention-main\\flash_attn\\utils\\pretrained.py": [
+        {
+            "io_method": "load",
+            "lineno": 30,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 32,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/flash-attention-main\\training\\src\\eval.py": [
+        {
+            "io_method": "load",
+            "lineno": 34,
+            "artefact_location": "Error::Instance::Instance of pathlib.Path",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/flash-attention-main\\training\\src\\datamodules\\language_modeling_hf.py": [
+        {
+            "io_method": "open",
+            "lineno": 200,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "memmap",
+            "lineno": 223,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "save",
+            "lineno": 236,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "open",
+            "lineno": 237,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "dump",
+            "lineno": 238,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 243,
+            "artefact_location": "Error::InferenceError::No inference function for <JoinedStr l.243 at 0x13dd47c5310>.",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "open",
+            "lineno": 245,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 246,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/flash-attention-main\\training\\src\\utils\\checkpoint.py": [
+        {
+            "io_method": "open",
+            "lineno": 15,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 20,
+            "artefact_location": "Error::Instance::Instance of pathlib.Path",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/flash-attention-main\\training\\src\\utils\\gpu_affinity.py": [
+        {
+            "io_method": "open",
+            "lineno": 118,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/flash-attention-main\\training\\src\\utils\\utils.py": [
+        {
+            "io_method": "open",
+            "lineno": 127,
+            "artefact_location": "config_tree.txt",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {
+                "conf": 1,
+                "data": 2
+            },
+            "categorie": "data"
+        }
+    ]
+}

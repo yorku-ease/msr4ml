@@ -18,3 +18,7 @@
 
 **Tree of thought LLM**
 [Repository link](https://github.com/princeton-nlp/tree-of-thought-llm)
+
+
+**Semantic-SAM**
+[Repository link](https://github.com/ux-decoder/semantic-sam)

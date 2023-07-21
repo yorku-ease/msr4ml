@@ -30,7 +30,9 @@ def infer_join(call_node, context=None):
             val = next(arg.infer())
             if val.__class__.__name__ != "Const":
                 success = False
-                new_node = InferenceError("Could not infer the value for " + str(call_node.as_string()))
+                new_node = InferenceError(
+                    "Could not infer the value for " + str(call_node.as_string())
+                )
             else:
                 ags.append(val.value)
         except InferenceError as e:
@@ -64,28 +66,30 @@ def get_open_node(start_from, names):
 
 
 # print(get_open_node(module, "opening")[0].as_string())
-# def get_v(object):
-#     v = None
-#     try:
-#         v = next(object.infer())
-#     except Exception as e:
-#         v = e
-#     if v.__class__.__name__ == "Const":
-#         return v.value
-#     else:
-#         return "Error::{}::{}".format(v.__class__.__name__, str(v))
-
-def get_v(obj):
+def get_v(object):
+    v = None
     try:
-        v = next(obj.infer())
-        if isinstance(v, Const):
-            return v.value
-        else:
-            return "Error::{}::{}".format(v.__class__.__name__, str(v))
-    except KeyError as e:
-        return "KeyError: {}".format(str(e))
+        v = next(object.infer())
     except Exception as e:
-        return "Error: {}".format(str(e))
+        v = e
+    if v.__class__.__name__ == "Const":
+        return v.value
+    else:
+        print(str(v))
+        return """Error::{}::{}""".format(v.__class__.__name__, str(v))
+
+
+# def get_v(obj):
+#     try:
+#         v = next(obj.infer())
+#         if isinstance(v, Const):
+#             return v.value
+#         else:
+#             return "Error::{}::{}".format(v.__class__.__name__, str(v))
+#     except KeyError as e:
+#         return "KeyError: {}".format(str(e))
+#     except Exception as e:
+#         return "Error: {}".format(str(e))
 
 
 def get_keywords(node, index=0):
@@ -93,11 +97,7 @@ def get_keywords(node, index=0):
     for i, keyword in enumerate(node.keywords):
         index += i
         v = get_v(keyword.value)
-        keywords.append({
-            "position": index,
-            "name": keyword.arg,
-            "value": v
-        })
+        keywords.append({"position": index, "name": keyword.arg, "value": v})
     return keywords
 
 
@@ -106,14 +106,11 @@ def get_args(node, index=0):
     for i, arg in enumerate(node.args):
         index = i
         v = get_v(arg)
-        args.append({
-            "position": index,
-            "name": None,
-            "value": v
-        })
+        args.append({"position": index, "name": None, "value": v})
     return args, index + 1
 
-def get_links(args = []):
+
+def get_links(args=[]):
     links = []
     io_functions = utils.get_io_funcs()
 
@@ -126,15 +123,15 @@ def get_links(args = []):
         artefact_type = None
 
         if len(arg["args"]) >= fparam_position:
-            artefact_location = arg["args"][fparam_position-1]["value"]
-        
+            artefact_location = arg["args"][fparam_position - 1]["value"]
+
         if default_type is not None:
             if "r" in default_type:
                 artefact_type = "input"
             else:
                 artefact_type = "output"
         elif len(arg["args"]) >= mparam_position:
-            type = arg["args"][mparam_position-1]
+            type = arg["args"][mparam_position - 1]
             if "r" in type:
                 artefact_type = "input"
             else:
@@ -145,9 +142,9 @@ def get_links(args = []):
             "lineno": arg["lineno"],
             "artefact_location": artefact_location,
             "artefact_type": artefact_type,
-            "weight": 1
+            "weight": 1,
         }
-        
+
         links.append(link)
     return links
 
@@ -156,58 +153,64 @@ def get_arguments(ast_node):
     args = []
     for node in get_open_node(ast_node, utils.get_io_funcs().keys()):
         # print(node)
-        d = {'name': node.func.name if hasattr(node.func, "name") else node.func.attrname, 'lineno': node.lineno,
-            'args': []}
+        d = {
+            "name": node.func.name
+            if hasattr(node.func, "name")
+            else node.func.attrname,
+            "lineno": node.lineno,
+            "args": [],
+        }
         last = 0
         if node.args is not None:
-            d['args'], last = get_args(node)
+            d["args"], last = get_args(node)
         if node.keywords is not None:
-            d['args'] += get_keywords(node, last)
-        #print(json.dumps(d, indent=4))
+            d["args"] += get_keywords(node, last)
+        # print(json.dumps(d, indent=4))
         args.append(d)
     return args
+
 
 def identify(name, project, codes, check_all=True):
     res = {}
     result_dir = os.path.join(project, "msr4ml")
     result_file = os.path.join(result_dir, "identifier_results.json")
-    #Create msr4ml dir in target project's path if not exists
+    # Create msr4ml dir in target project's path if not exists
     if not os.path.exists(result_dir):
         os.mkdir(result_dir)
-    
-    #Create identifier result json file in target project's path if not exists
+
+    # Create identifier result json file in target project's path if not exists
     if not os.path.isfile(result_file):
-        with open(result_file, 'w') as f:
+        with open(result_file, "w") as f:
             f.write('{"default": "Temporary"}')
-    
-    #Load existing identified artefacts
+
+    # Load existing identified artefacts
     with open(result_file, "r") as f:
         res = json.load(f)
         if "default" in res.keys():
             del res["default"]
         if check_all:
             res = {}
-    
-    #Identify artefact for each file in the project
+
+    # Identify artefact for each file in the project
     for fname, ast_node in codes.items():
         links = get_links(get_arguments(ast_node))
         if links:
             res[fname] = links
 
     # save to result file
-    with open(result_file, 'w') as f:
-            json.dump(res, f, indent=4, sort_keys=False)
+    with open(result_file, "w") as f:
+        json.dump(res, f, indent=4, sort_keys=False)
     if res:
-        print("Finished identification.", f'results saved in {result_file}')
+        print("Finished identification.", f"results saved in {result_file}")
         return result_file
     else:
         print("No artefact found, aborting...")
         return False
-    
 
 
 def main(project, ast_node):
     pass
+
 
 if __name__ == "__main__":
     main()

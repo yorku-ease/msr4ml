@@ -58,7 +58,6 @@ def get_args():
 
 def main():
     args = get_args().parse_args()
-    args.project = "repos/Hello"
     assert args.project is not None, "The path of the ML project must be specified"
     name = (
         args.name

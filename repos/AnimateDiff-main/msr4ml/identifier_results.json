@@ -1,0 +1,71 @@
+{
+    "repos/AnimateDiff-main\\animatediff\\models\\unet.py": [
+        {
+            "io_method": "open",
+            "lineno": 459,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(pretrained_model_path, 'config.json')",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 460,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 480,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(pretrained_model_path, WEIGHTS_NAME)",
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    "repos/AnimateDiff-main\\animatediff\\utils\\convert_from_ckpt.py": [
+        {
+            "io_method": "load",
+            "lineno": 927,
+            "artefact_location": null,
+            "artefact_type": "input",
+            "weight": 1
+        }
+    ],
+    "repos/AnimateDiff-main\\scripts\\animate.py": [
+        {
+            "io_method": "load",
+            "lineno": 37,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 39,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 65,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "load",
+            "lineno": 73,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1
+        },
+        {
+            "io_method": "save",
+            "lineno": 145,
+            "artefact_location": "Error::InferenceError::No inference function for <JoinedStr l.145 at 0x214a9eba3d0>.",
+            "artefact_type": "output",
+            "weight": 1
+        }
+    ]
+}

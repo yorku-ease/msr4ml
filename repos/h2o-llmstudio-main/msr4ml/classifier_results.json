@@ -1,0 +1,493 @@
+{
+    "repos/h2o-llmstudio-main\\app.py": [
+        {
+            "io_method": "save",
+            "lineno": 45,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/h2o-llmstudio-main\\app_utils\\migration.py": [
+        {
+            "io_method": "open",
+            "lineno": 38,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(root, file)",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 39,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/h2o-llmstudio-main\\app_utils\\utils.py": [
+        {
+            "io_method": "save",
+            "lineno": 323,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "open",
+            "lineno": 1182,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 1183,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "open",
+            "lineno": 1191,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 1192,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "open",
+            "lineno": 1708,
+            "artefact_location": "KeyError: 'get_user_id(q)'",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 1709,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "open",
+            "lineno": 1732,
+            "artefact_location": "KeyError: 'get_user_id(q)'",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "dump",
+            "lineno": 1734,
+            "artefact_location": "Error::Dict::Dict.dict(items=[])",
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/h2o-llmstudio-main\\app_utils\\wave_utils.py": [
+        {
+            "io_method": "save",
+            "lineno": 337,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "save",
+            "lineno": 362,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "save",
+            "lineno": 378,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/h2o-llmstudio-main\\app_utils\\sections\\chat.py": [
+        {
+            "io_method": "save",
+            "lineno": 53,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "save",
+            "lineno": 102,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "save",
+            "lineno": 208,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "save",
+            "lineno": 266,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "save",
+            "lineno": 353,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/h2o-llmstudio-main\\app_utils\\sections\\dataset.py": [
+        {
+            "io_method": "save",
+            "lineno": 825,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/h2o-llmstudio-main\\app_utils\\sections\\experiment.py": [
+        {
+            "io_method": "save",
+            "lineno": 950,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "open",
+            "lineno": 1081,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "save",
+            "lineno": 1325,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "save",
+            "lineno": 1360,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "open",
+            "lineno": 1374,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "save",
+            "lineno": 1435,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "save",
+            "lineno": 1472,
+            "artefact_location": null,
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "open",
+            "lineno": 1636,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(experiment_path, 'h2oai_pipeline.py')",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/h2o-llmstudio-main\\llm_studio\\src\\tooltips.py": [
+        {
+            "io_method": "open",
+            "lineno": 21,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/h2o-llmstudio-main\\llm_studio\\src\\metrics\\text_causal_language_modeling_metrics.py": [
+        {
+            "io_method": "open",
+            "lineno": 70,
+            "artefact_location": "prompts/eval_template.txt",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {
+                "data": 2
+            },
+            "categorie": "data"
+        }
+    ],
+    "repos/h2o-llmstudio-main\\llm_studio\\src\\utils\\config_utils.py": [
+        {
+            "io_method": "open",
+            "lineno": 196,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "dump",
+            "lineno": 197,
+            "artefact_location": "Error::Dict::Dict.dict(items=[])",
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "open",
+            "lineno": 208,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 209,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/h2o-llmstudio-main\\llm_studio\\src\\utils\\data_utils.py": [
+        {
+            "io_method": "read_csv",
+            "lineno": 60,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "to_csv",
+            "lineno": 116,
+            "artefact_location": "Error::Call::Call(func=<Attribute.join l.52 at 0x27b79c9e210>,\n     args=[<Starred l.53 at 0x27b79c9e390>, <BinOp l.54 at 0x27b79c9e550>],\n     keywords=[])",
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "read_csv",
+            "lineno": 157,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/h2o-llmstudio-main\\llm_studio\\src\\utils\\export_utils.py": [
+        {
+            "io_method": "open",
+            "lineno": 106,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "dump",
+            "lineno": 107,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "open",
+            "lineno": 110,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "dump",
+            "lineno": 111,
+            "artefact_location": "Error: No inference function for <DictComp l.112 at 0x27b79c8d050>.",
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/h2o-llmstudio-main\\llm_studio\\src\\utils\\logging_utils.py": [
+        {
+            "io_method": "open",
+            "lineno": 84,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 85,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "open",
+            "lineno": 91,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "dump",
+            "lineno": 92,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/h2o-llmstudio-main\\llm_studio\\src\\utils\\modeling_utils.py": [
+        {
+            "io_method": "save",
+            "lineno": 87,
+            "artefact_location": "Error::InferenceError::Could not infer the value for os.path.join(path, 'checkpoint.pth')",
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "load",
+            "lineno": 162,
+            "artefact_location": null,
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "to_csv",
+            "lineno": 471,
+            "artefact_location": "KeyError: 'mode'",
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ],
+    "repos/h2o-llmstudio-main\\llm_studio\\src\\utils\\utils.py": [
+        {
+            "io_method": "open",
+            "lineno": 125,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "input",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        },
+        {
+            "io_method": "dump",
+            "lineno": 126,
+            "artefact_location": "Error::UninferableBase::Uninferable",
+            "artefact_type": "output",
+            "weight": 1,
+            "possible_categories": {},
+            "categorie": null
+        }
+    ]
+}
