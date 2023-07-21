@@ -64,7 +64,6 @@ def main():
         if args.name != ""
         else os.path.basename(os.path.normpath(args.project))
     )
-
     filenames = []
     codes = {}
     filenames = get_python_files(args.project)
