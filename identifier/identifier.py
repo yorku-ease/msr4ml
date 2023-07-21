@@ -66,30 +66,30 @@ def get_open_node(start_from, names):
 
 
 # print(get_open_node(module, "opening")[0].as_string())
-def get_v(object):
-    v = None
-    try:
-        v = next(object.infer())
-    except Exception as e:
-        v = e
-    if v.__class__.__name__ == "Const":
-        return v.value
-    else:
-        print(str(v))
-        return """Error::{}::{}""".format(v.__class__.__name__, str(v))
-
-
-# def get_v(obj):
+# def get_v(object):
+#     v = None
 #     try:
-#         v = next(obj.infer())
-#         if isinstance(v, Const):
-#             return v.value
-#         else:
-#             return "Error::{}::{}".format(v.__class__.__name__, str(v))
-#     except KeyError as e:
-#         return "KeyError: {}".format(str(e))
+#         v = next(object.infer())
 #     except Exception as e:
-#         return "Error: {}".format(str(e))
+#         v = e
+#     if v.__class__.__name__ == "Const":
+#         return v.value
+#     else:
+#         print(str(v))
+#         return """Error::{}::{}""".format(v.__class__.__name__, str(v))
+
+
+def get_v(obj):
+    try:
+        v = next(obj.infer())
+        if isinstance(v, Const):
+            return v.value
+        else:
+            return "Error::{}::{}".format(v.__class__.__name__, str(v))
+    except KeyError as e:
+        return "KeyError: {}".format(str(e))
+    except Exception as e:
+        return "Error: {}".format(str(e))
 
 
 def get_keywords(node, index=0):
