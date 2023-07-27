@@ -7,8 +7,6 @@ venv
 *pycache*
 *.pyc
 
-# repos
-repos
 
 # vscode
 .vscode
