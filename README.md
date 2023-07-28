@@ -30,4 +30,5 @@ Functionnal modules: parser, identifier and classifier.
     -n NAME, --name NAME  Set the name of the project. Defaults to the name of the directory to analyse
     ```
 4) The results will be saved in the directory \[dir_path of the project\]/msr4ml
+5) Astroid (An abstract syntax tree for Python with inference support) documentation: [https://pylint.readthedocs.io/projects/astroid/en/latest/](https://pylint.readthedocs.io/projects/astroid/en/latest/)
 
