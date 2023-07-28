@@ -66,13 +66,15 @@ def main():
     )
     filenames = []
     codes = {}
-    for root, _, files in os.walk(args.project):
-        for file in files:
-            if file.endswith(".py"):
-                filenames.append(os.path.join(root, file))
+    filenames = get_python_files(args.project)
+    # for root, _, files in os.walk(args.project):
+    #     for file in files:
+    #         if file.endswith(".py"):
+    #             filenames.append(os.path.join(root, file))
     for file in filenames:
-        with open(file) as f:
-            codes[file] = astroid.parse(f.read())
+        with open(file, encoding="utf8") as f:
+            # codes[file] = astroid.parse(f.read())
+            codes[file] = call_parser(f.read())
 
     print("+++ Starting identification...")
     identifier_result_file = call_identifier(name, os.path.abspath(args.project), codes)

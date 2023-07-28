@@ -16,7 +16,7 @@ We'll see how robust this turns out to be.
 import os 
 import ast 
 import sys
-import parser 
+import parser
 import random
 import codegen
 import argparse
