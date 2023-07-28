@@ -45,7 +45,7 @@ def get_by_extension(name, exs=extensions):
     # check if name is not NoneType
     if name is None:
         return categories
-    
+
     for categorie, values in exs.items():
         if os.path.splitext(name)[1] in values:
             categories[categorie] = 2
